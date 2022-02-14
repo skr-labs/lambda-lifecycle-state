@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "lib": ["es5", "es2015.collection", "dom"],
+        "outDir": "dist-es",
+        "importHelpers": true,
+        "module": "esnext",
+        "noEmitHelpers": true,
+        "target": "es5",
+        "strict": true
+    },
+    "include": ["src/", "test/"]
+}
